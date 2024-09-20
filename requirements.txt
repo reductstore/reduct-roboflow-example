@@ -1,0 +1,6 @@
+inference-sdk
+roboflow
+supervision 
+opencv-python
+reduct-py
+flatten-json
