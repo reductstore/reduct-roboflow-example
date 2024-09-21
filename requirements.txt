@@ -1,5 +1,5 @@
-inference-sdk
 roboflow
+inference-sdk
 supervision 
 opencv-python
 reduct-py

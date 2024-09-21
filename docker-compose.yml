@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  reductstore:
+    image: reduct/store:latest
+    ports:
+      - "8383:8383"
+    volumes:
+      - data:/data
+    environment:
+      - RS_API_TOKEN=my-token
+      - RS_BUCKET_1_NAME=my-bucket-1
+      - RS_BUCKET_2_NAME=my-bucket-2
+      
+volumes:
+  data:
+    driver: local
