@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   reductstore:
     image: reduct/store:latest
